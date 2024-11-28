@@ -11,10 +11,8 @@
 
 
 function handleRedirect(event) {
-    console.log(event)
     // Roll 1d10.
     var christmasDetect = Math.floor(Math.random() * 10);
-    console.log(christmasDetect)
     if (christmasDetect === 0) {
         // She's coming.
         window.location.href = "https://www.youtube.com/watch?v=yXQViqx6GMY";
